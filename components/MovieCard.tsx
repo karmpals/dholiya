@@ -1,8 +1,8 @@
 import useInfoModal from "@/hooks/useInfoModal";
 import { useRouter } from "next/router";
 import React from "react";
-import { BsFillPlayFill } from "react-icons/Bs";
-import { BiChevronDown } from "react-icons/Bi";
+import { BsFillPlayFill } from "@react-icons/all-files/Bs/BsFillPlayFill";
+import { BiChevronDown } from "@react-icons/all-files/Bi/BiChevronDown";
 import FavoriteButton from "./FavoriteButton";
 
 interface MovieCardProps {
