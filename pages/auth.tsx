@@ -4,7 +4,6 @@ import axios from "axios";
 import { signIn } from 'next-auth/react';
 
 const Auth = () => {
-
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
     const [password, setPassword] = useState('');
@@ -12,9 +11,8 @@ const Auth = () => {
     const [veriant, setVeriant] = useState('login');
 
     const toggleVeriant = useCallback (() => {
-        setVeriant((currentVeriant) => currentVeriant === 'login' ? 'register' : 'login');
-    },[]);
-    
+       // eslint-disable-line
+         setVeriant((currentVeriant) => currentVeriant === 'login' ? 'register' : 'login');},[]);
 
     const login = useCallback(async () =>{
         try {
