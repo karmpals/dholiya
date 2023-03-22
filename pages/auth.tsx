@@ -11,9 +11,10 @@ const Auth = () => {
 
     const [veriant, setVeriant] = useState('login');
 
-    const toggleVeriant = useCallback(() => {
+    const toggleVeriant = useCallback (() => {
         setVeriant((currentVeriant) => currentVeriant === 'login' ? 'register' : 'login');
-    }, []);
+    },[]);
+    
 
     const login = useCallback(async () =>{
         try {
