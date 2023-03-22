@@ -1,5 +1,7 @@
 import NavbarItem from "./NavbarItem";
-import { BsBell, BsChevronDown, BsSearch } from 'react-icons/Bs'
+import { BsBell } from '@react-icons/all-files/Bs/BsBell';
+import {  BsChevronDown } from '@react-icons/all-files/Bs/BsChevronDown';
+import {   BsSearch } from '@react-icons/all-files/Bs/BsSearch';
 import MobileMenu from "./MobileMenu";
 import { useCallback, useState, useEffect } from "react";
 import AccountMenu from "./AccountMenu";
